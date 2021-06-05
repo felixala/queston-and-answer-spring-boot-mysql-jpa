@@ -1,4 +1,7 @@
-Create Question POST /questions
+# queston-and-answer-spring-boot-mysql-jpa
+
+
+## Create Question POST /questions
 POST http://localhost:8000/questions
 {
     "title":"how to use MySql with Spring Boot and JPA",
@@ -18,11 +21,11 @@ POST http://localhost:8000/questions
 
 
 
-Get paginated Questions
+## Get paginated Questions
 GET http://localhost:8000/questions?page=0&size=2&sort=createdAt,desc
 
 
-Create Answer 
+## Create Answer 
 POST /questions/{questionId}/answers
 http://localhost:8000/questions/1000/answers
 
@@ -36,5 +39,5 @@ http://localhost:8000/questions/1000/answers
     "text":"Spring Boot provides a very good support to create a DataSource for Database. We need not write any extra code to create a DataSource in Spring Boot."
 }
 
-Get all answers of a Question GET /questions/{questionId}/answers
+## Get all answers of a Question GET /questions/{questionId}/answers
 GET http://localhost:8000/questions/1000/answers
