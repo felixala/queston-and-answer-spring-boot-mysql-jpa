@@ -1,4 +1,4 @@
-# queston-and-answer-spring-boot-mysql-jpa
+# question-and-answer-spring-boot-mysql-jpa
 
 
 ## Create Question POST /questions
